@@ -25,6 +25,7 @@
 		F7975C3D2B6D6CD200ACBF36 /* FruitClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FruitClassifier 1.mlmodel"; sourceTree = "<group>"; };
 		F7975C3F2B6D6D5400ACBF36 /* VisionClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionClassifier.swift; sourceTree = "<group>"; };
 		F7975C412B6D750B00ACBF36 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7975C4B2B6D822D00ACBF36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7FDDF362B6AE27200BC9A3F /* FruitClassMLTrainingModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitClassMLTrainingModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FDDF392B6AE27200BC9A3F /* FruitClassMLTrainingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitClassMLTrainingModel.swift; sourceTree = "<group>"; };
 		F7FDDF3D2B6AE27400BC9A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 				F72C271B2B6AE7A600AB8D3D /* Delegates */,
 				F7FDDF392B6AE27200BC9A3F /* FruitClassMLTrainingModel.swift */,
 				F7975C3D2B6D6CD200ACBF36 /* FruitClassifier 1.mlmodel */,
+				F7975C4B2B6D822D00ACBF36 /* Info.plist */,
 				F7FDDF3D2B6AE27400BC9A3F /* Assets.xcassets */,
 				F7975C412B6D750B00ACBF36 /* LaunchScreen.storyboard */,
 				F7FDDF3F2B6AE27400BC9A3F /* Preview Content */,
@@ -303,11 +305,13 @@
 				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = FruitClassMLTrainingModel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,11 +336,13 @@
 				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = FruitClassMLTrainingModel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
