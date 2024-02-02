@@ -48,11 +48,9 @@ struct FruitClassMLTrainingModel: View {
                             },
                             .cancel()
                         ])
-                        
                 }
                 
                 Spacer()
-                
                 Button("Classify") {
                     
                     // perform image classification
