@@ -15,6 +15,9 @@ struct FruitClassMLTrainingModel: View {
     @State private var showPhotoOptions: Bool = false
     @State private var image: UIImage?
     @State private var sourceType: UIImagePickerController.SourceType = .camera
+    @State private var classificationLabel: String = ""
+    
+    private let classifier = VisionClassifier(mlModel: FruitClassifier_1().model)
     
     var body: some View {
         
@@ -49,11 +52,18 @@ struct FruitClassMLTrainingModel: View {
                             .cancel()
                         ])
                 }
+                Text(classificationLabel)
+                    .font(.largeTitle)
+                    .padding(.top, 80)
                 
                 Spacer()
                 Button("Classify") {
-                    
-                    // perform image classification
+                    if let img = self.image {
+                        // perform image classification
+                        classifier?.classify(img) { result in
+                            classificationLabel = result
+                        }
+                    }
                     
                 }.padding()
                     .foregroundColor(Color.white)
